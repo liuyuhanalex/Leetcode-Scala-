@@ -35,8 +35,8 @@ object AddTwoNumbers {
   }
 
   def main(args: Array[String]): Unit = {
-    var l1 = createListNode(Array(2,4,3))
-    var l2 = createListNode(Array(5,6,4))
+    val l1 = createListNode(Array(2,4,3))
+    val l2 = createListNode(Array(5,6,4))
 
     var result = addTwoNumbers(l1, l2)
     while(result!=null){
